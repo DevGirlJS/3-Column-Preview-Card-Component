@@ -1,0 +1,111 @@
+/* CSS variables */
+:root {
+    --brightOrange: hsl(31, 77%, 52%);
+    --darkCyan: hsl(184, 100%, 22%);
+    --veryDarkCyan: hsl(179, 100%, 13%);
+    --transparentWhite : hsla(0, 0%, 100%, 0.75);
+    --veryLightGray: hsl(0, 0%, 95%);
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+ body {
+    min-height: 100vh;
+}
+
+main {
+    margin:5em 0;
+}
+
+.container {
+    width: fit-content;
+    margin: auto; 
+}
+
+.card {
+    padding: 5em 4.5em 5em 5em;
+    width: 320px;
+}
+
+
+.card--sedan {
+    background-color: var(--brightOrange);
+    border-radius: 10px 10px 0 0;
+}
+
+.card--suv {
+    background-color: var(--darkCyan);
+}
+
+.card--luxury {
+    background-color: var(--veryDarkCyan);
+    border-radius: 0 0 10px 10px;
+}
+
+
+.card__title {
+    color: var(--veryLightGray);
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin: 0.8em 0;
+}
+
+.card__text, .btn {
+    color: var(--transparentWhite);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.card__text {
+    color: var(--transparentWhite);
+    line-height: 1.8em;
+    font-size: 1.5rem;
+}
+
+.btn {
+    background-color: var(--veryLightGray);
+    text-decoration: none;
+    padding: 1em 2em;
+    border-radius: 25px;
+    display: inline-block;
+    margin-top: 1.3em;
+    font-size: 1.6rem;
+}
+
+.btn--sedan {
+    color: var(--brightOrange);
+}
+
+.btn--suv {
+    color: var(--darkCyan);
+}
+.btn--luxury {
+    color: var(--veryDarkCyan);
+}
+
+
+/* Button Hover Styles */
+.btn--sedan:hover {
+    background-color: var(--brightOrange);
+}
+
+.btn--suv:hover {
+    background-color: var(--darkCyan);
+}
+.btn--luxury:hover {
+    background-color: var(--veryDarkCyan);
+}
+
+.btn--sedan:hover, .btn--suv:hover, .btn--luxury:hover {
+    color: var(--veryLightGray);
+    border: 1px solid var(--veryLightGray) ;
+}
+
+
+
