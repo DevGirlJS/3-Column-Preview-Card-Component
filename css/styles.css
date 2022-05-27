@@ -109,3 +109,52 @@ main {
 
 
 
+/* Desktop Styles */
+
+@media screen and (min-width:900px) {
+
+    .card--sedan {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .card--luxury {
+        border-radius: 0 10px 10px 0;
+    }
+   
+     body, .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        padding: 5.5em;
+        margin: 0;
+    }
+
+  
+    .btn {
+        margin-top: 4em;
+    }
+
+} 
+
+@media screen and (min-width:900px) and (max-width:976px){
+   
+    .card--suv {
+        border-radius: 0 10px 10px 0;
+    }
+
+    .card--luxury{
+        border-radius: 10px 10px 10px 10px;
+    }
+}
+
+
+
+
