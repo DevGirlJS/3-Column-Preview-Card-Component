@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshoot](./screenshot/Column-Preview-Card-Component.png)
+![screenshoot](screenshot/Column-Preview-Card-Component.png)
 
 
 ### Links
